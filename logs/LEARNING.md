@@ -2,15 +2,14 @@
 
 ## Topic: Unit Testing in Java
 
-### Tool used: Claude (claude.ai)
 
 ---
 
 ### Prompt 1
 
-**Me:** I'm a student learning Java. Can you explain what unit testing is and how to write unit tests in Java using JUnit 5? Please include examples and explain the most important Assert methods.
+**Ofek:** I'm a student learning Java. Can you explain what unit testing is and how to write unit tests in Java using JUnit 5? Please include examples and explain the most important Assert methods.
 
-**Claude:**
+**AI:**
 Unit testing means testing a single "unit" of code (usually a method) in isolation, to verify it behaves correctly for a variety of inputs.
 
 In Java, the most popular framework is **JUnit 5** (Jupiter). A test class looks like this:
@@ -49,9 +48,9 @@ class MyTest {
 
 ### Prompt 2
 
-**Me:** How do I know if my tests are sufficient? What is code coverage and how do I check that all code paths are tested?
+**Ofek:** How do I know if my tests are sufficient? What is code coverage and how do I check that all code paths are tested?
 
-**Claude:**
+**AI:**
 **Code coverage** measures what percentage of your source code is executed when your tests run. The most important metric is **branch coverage** – making sure every `if/else`, `switch`, and loop condition has been tested for both the true and false path.
 
 **How to check coverage in Gradle / JUnit 5:**
@@ -86,9 +85,9 @@ Open `app/build/reports/jacoco/test/html/index.html` to see a coloured report sh
 
 ### Prompt 3
 
-**Me:** What is the difference between assertEquals and assertSame? When should I use assertThrows?
+**Ofek:** What is the difference between assertEquals and assertSame? When should I use assertThrows?
 
-**Claude:**
+**AI:**
 - `assertEquals` compares **values** (uses `.equals()`).
 - `assertSame` compares **references** (uses `==`). Use it only when you need to verify both variables point to the exact same object in memory. This is rarely needed.
 
