@@ -2,8 +2,6 @@
 
 ## Topic: Writing unit tests for App.java using Claude Code
 
-### Tool used: Claude Code (claude-sonnet-4-6 via CLI)
-
 ---
 
 ### Session overview
@@ -14,9 +12,9 @@ I used Claude Code (an AI coding assistant integrated directly into the developm
 
 ### Interaction 1 – Understanding the functions
 
-**Me:** Look at App.java. What functions are there and what should I test for each one?
+**Ofek:** Look at App.java. What functions are there and what should I test for each one?
 
-**Claude Code:**
+**AI:**
 The file contains 8 testable functions:
 
 1. `getGreeting()` – returns a constant string. Test: verify the exact return value.
@@ -33,9 +31,9 @@ The file contains 8 testable functions:
 
 ### Interaction 2 – Generating the tests
 
-**Me:** Write comprehensive JUnit 5 unit tests for all these functions covering all branches and edge cases.
+**Ofek:** Write comprehensive JUnit 5 unit tests for all these functions covering all branches and edge cases.
 
-**Claude Code:**
+**AI:**
 Generated `AppTest.java` with 40+ test methods covering:
 - Happy path tests for every function
 - Edge cases: null inputs, empty collections, zero, single element, negative numbers
@@ -47,9 +45,9 @@ Generated `AppTest.java` with 40+ test methods covering:
 
 ### Interaction 3 – Coverage check
 
-**Me:** Are the tests sufficient? Did we cover all code paths?
+**Ofek:** Are the tests sufficient? Did we cover all code paths?
 
-**Claude Code:**
+**AI:**
 Analysis of branch coverage per function:
 
 | Function      | Branches covered |
