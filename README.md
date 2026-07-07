@@ -7,10 +7,11 @@
 
 ## Team Members
 
-| # | Name | ID |
+| # | Name | 
 |---|------|----|
-| 1 | Ofek Osher | 212482616 |
-| 2 | ____________ | __________ |
+| 1 | Ofek Osher |
+| 2 | Keren Vinogradov |
+| 3 | Shira Tal | 
 
 ---
 
