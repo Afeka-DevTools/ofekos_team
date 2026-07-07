@@ -8,7 +8,7 @@
 ## Team Members
 
 | # | Name | 
-|---|------|----|
+|---|------|
 | 1 | Ofek Osher |
 | 2 | Keren Vinogradov |
 | 3 | Shira Tal | 
