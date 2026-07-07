@@ -12,7 +12,7 @@ I used Claude Code (an AI coding assistant integrated directly into the developm
 
 ### Interaction 1 – Understanding the functions
 
-**Ofek:** Look at App.java. What functions are there and what should I test for each one?
+**Team:** Look at App.java. What functions are there and what should I test for each one?
 
 **AI:**
 The file contains 8 testable functions:
@@ -31,7 +31,7 @@ The file contains 8 testable functions:
 
 ### Interaction 2 – Generating the tests
 
-**Ofek:** Write comprehensive JUnit 5 unit tests for all these functions covering all branches and edge cases.
+**Team:** Write comprehensive JUnit 5 unit tests for all these functions covering all branches and edge cases.
 
 **AI:**
 Generated `AppTest.java` with 40+ test methods covering:
@@ -45,7 +45,7 @@ Generated `AppTest.java` with 40+ test methods covering:
 
 ### Interaction 3 – Coverage check
 
-**Ofek:** Are the tests sufficient? Did we cover all code paths?
+**Team:** Are the tests sufficient? Did we cover all code paths?
 
 **AI:**
 Analysis of branch coverage per function:
