@@ -23,9 +23,8 @@
 | `app/src/test/java/com/example/AppTest.java` | Unit tests |
 | `app/build.gradle` | Gradle build config |
 | `settings.gradle` | Gradle settings |
-| `logs/LEARNING.md` | LLM conversations – part 2 |
-| `logs/COPILOT.md` | LLM conversations – part 3 |
-| `chats/` | Raw LLM chat exports |
+| `chats/logs/LEARNING.md` | LLM conversations – part 2 |
+| `chats/logs/COPILOT.md` | LLM conversations – part 3 |
 
 ---
 
