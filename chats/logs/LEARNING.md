@@ -7,7 +7,7 @@
 
 ### Prompt 1
 
-**Ofek:** I'm a student learning Java. Can you explain what unit testing is and how to write unit tests in Java using JUnit 5? Please include examples and explain the most important Assert methods.
+**Team:** I'm a student learning Java. Can you explain what unit testing is and how to write unit tests in Java using JUnit 5? Please include examples and explain the most important Assert methods.
 
 **AI:**
 Unit testing means testing a single "unit" of code (usually a method) in isolation, to verify it behaves correctly for a variety of inputs.
@@ -48,7 +48,7 @@ class MyTest {
 
 ### Prompt 2
 
-**Ofek:** How do I know if my tests are sufficient? What is code coverage and how do I check that all code paths are tested?
+**Team:** How do I know if my tests are sufficient? What is code coverage and how do I check that all code paths are tested?
 
 **AI:**
 **Code coverage** measures what percentage of your source code is executed when your tests run. The most important metric is **branch coverage** – making sure every `if/else`, `switch`, and loop condition has been tested for both the true and false path.
@@ -85,7 +85,7 @@ Open `app/build/reports/jacoco/test/html/index.html` to see a coloured report sh
 
 ### Prompt 3
 
-**Ofek:** What is the difference between assertEquals and assertSame? When should I use assertThrows?
+**Team:** What is the difference between assertEquals and assertSame? When should I use assertThrows?
 
 **AI:**
 - `assertEquals` compares **values** (uses `.equals()`).
