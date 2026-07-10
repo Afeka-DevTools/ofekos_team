@@ -23,8 +23,10 @@
 | `app/src/test/java/com/example/AppTest.java` | Unit tests |
 | `app/build.gradle` | Gradle build config |
 | `settings.gradle` | Gradle settings |
-| `chats/logs/LEARNING.md` | LLM conversations – part 2 |
-| `chats/logs/COPILOT.md` | LLM conversations – part 3 |
+| `chats/LEARNING.md` | LLM conversation log – part 2 (self-learning) |
+| `chats/COPILOT.md` | LLM conversation log – part 3 (writing tests) |
+| `logs/LEARNING.md` | Copy of the part 2 conversation log |
+| `logs/COPILOT.md` | Copy of the part 3 conversation log |
 
 ---
 
